@@ -8,8 +8,6 @@ class Solution(object):
         low=0
         high=len(letters)-1
         ans=0
-        high=len(letters)-1
-        ans=0
         while low<=high:
             mid=(low+high)//2
             if letters[mid]>target:
